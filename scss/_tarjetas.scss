@@ -1,0 +1,101 @@
+
+@mixin tarjetas {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: 0.3);
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    height: 300px;
+    
+    &:hover{
+        box-shadow: 0px 0px 15px rgba($color: #000000, $alpha: 0.5);
+    }
+}
+
+.tarjetaSkills{
+    @include tarjetas;
+    height: 250px;
+}
+
+.tarjetaSkillsD{
+    @include tarjetas;
+    height: 150px;
+}
+
+.tarjetaProyectos{
+    @include tarjetas;
+}
+
+.tarjetaMissCatarsis{
+    @include tarjetas;
+    background-image: url(../imagenes/missCatarsis.jpg);
+}
+
+.tarjetaChulo{
+    @include tarjetas;
+    background-image: url(../imagenes/espacioChulo.jpg);
+}
+
+.tarjetaCefiro{
+    @include tarjetas;
+    background-image: url(../imagenes/cefiroGuitars.jpg);
+}
+
+.tarjetaDogger{
+    @include tarjetas;
+    background-image: url(../imagenes/dogger.jpg);
+}
+
+.tarjetaCiu{
+    @include tarjetas;
+    background-image: url(../imagenes/ciu.jpg);
+}
+
+.tarjetaEstudios{
+    @include tarjetas;
+    height: 80px;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+.cartelProyectos{
+    background-color: rgba(#fafafa, $alpha: 0.7);
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+    &:hover{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.a100{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    &:hover{
+        text-decoration: none;
+        color:black;
+    }
+}

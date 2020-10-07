@@ -1,0 +1,396 @@
+header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100; }
+  header .headerNav {
+    background-color: rgba(250, 250, 250, 0.7); }
+  header nav .headerButton {
+    font-size: 2rem;
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    color: rgba(228, 195, 19, 0.8); }
+    header nav .headerButton:focus {
+      border: none; }
+    header nav .headerButton:active {
+      border: none; }
+  header nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px; }
+  header nav div a {
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 20px; }
+    header nav div a:hover {
+      text-decoration: none;
+      color: black;
+      font-weight: 500; }
+  header nav .headerSection {
+    display: flex;
+    justify-content: flex-end; }
+
+@media (min-width: 1000px) {
+  .headerButton {
+    display: none; } }
+
+@media (max-width: 1000px) {
+  header nav div a {
+    font-weight: 700; } }
+
+.tarjetaSkills {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 300px;
+  height: 250px; }
+  .tarjetaSkills:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+
+.tarjetaSkillsD {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 300px;
+  height: 150px; }
+  .tarjetaSkillsD:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+
+.tarjetaProyectos {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 300px; }
+  .tarjetaProyectos:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+
+.tarjetaMissCatarsis {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 300px;
+  background-image: url(../imagenes/missCatarsis.jpg); }
+  .tarjetaMissCatarsis:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+
+.tarjetaChulo {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 300px;
+  background-image: url(../imagenes/espacioChulo.jpg); }
+  .tarjetaChulo:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+
+.tarjetaCefiro {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 300px;
+  background-image: url(../imagenes/cefiroGuitars.jpg); }
+  .tarjetaCefiro:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+
+.tarjetaDogger {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 300px;
+  background-image: url(../imagenes/dogger.jpg); }
+  .tarjetaDogger:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+
+.tarjetaCiu {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 300px;
+  background-image: url(../imagenes/ciu.jpg); }
+  .tarjetaCiu:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+
+.tarjetaEstudios {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 300px;
+  height: 80px;
+  text-align: center; }
+  .tarjetaEstudios:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+
+p {
+  margin: 0; }
+
+.cartelProyectos {
+  background-color: rgba(250, 250, 250, 0.7);
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: all 0.5s; }
+  .cartelProyectos:hover {
+    width: 100%;
+    height: 100%; }
+
+.a100 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black; }
+  .a100:hover {
+    text-decoration: none;
+    color: black; }
+
+html {
+  scroll-behavior: smooth; }
+
+.body {
+  background: linear-gradient(180deg, #91d3f5 0%, #fafafa 19%, #fafafa 100%);
+  font-family: 'Montserrat', sans-serif; }
+
+h2 {
+  font-weight: 300; }
+
+h3 {
+  font-size: 26px;
+  font-weight: 300; }
+
+.presentacion {
+  padding-top: 50px; }
+
+.contenedorBotones {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end; }
+
+.buttonPresentacion {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: black;
+  background-color: #fafafa;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border: solid 2px white;
+  border-radius: 6px;
+  margin: 0 10px;
+  transition: all 0.5s; }
+  .buttonPresentacion:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border-radius: 6px 25px 6px 25px; }
+
+#conocimientos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px; }
+
+#proyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px; }
+
+#contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  background-color: salmon;
+  padding-bottom: 100px; }
+
+#uxui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px; }
+
+.rowPresentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.rowConocimientos {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.imgConocimientos {
+  width: 100px; }
+
+.rowProyectos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.rowContacto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.redes {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 3px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s;
+  margin: 10px; }
+  .redes:hover {
+    border-radius: 10px 20px 10px 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none; }
+
+footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 100px; }
+
+.rowFooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .rowFooter div a {
+    margin: 0 20px;
+    color: white; }
+
+@media (max-width: 1050px) {
+  .presentacion {
+    padding-top: 100px; }
+  h1 {
+    font-size: 30px;
+    font-weight: 700; }
+  h2 {
+    font-size: 24px; }
+  h3 {
+    font-size: 22px; } }
+
+@media (max-width: 450px) {
+  .rowConocimientos {
+    width: 90%; }
+  .tarjetaSkills {
+    height: 150px; }
+  .imgConocimientos {
+    width: 50px; }
+  .colPresentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .colPresentacion h3 {
+      text-align: center; }
+  h1 {
+    font-size: 22px;
+    font-weight: 700; }
+  h2 {
+    font-size: 20px; }
+  h3 {
+    font-size: 18px; }
+  h4 {
+    font-size: 14px; }
+  .contenedorBotones {
+    justify-content: center; }
+  .tarjetaEstudios {
+    height: 50px;
+    padding: 0 20px; } }

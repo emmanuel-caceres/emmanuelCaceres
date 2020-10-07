@@ -1,0 +1,75 @@
+//caracteristicas aplicadas a barra nav
+header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+    .headerNav{
+        background-color: rgba($color: #fafafa, $alpha: 0.7)
+    }
+
+    nav{
+        .headerButton{
+            font-size: 2rem;
+            line-height: 1;
+            background-color: transparent;
+            border: none;
+            color:  rgba(228, 195, 19, 0.8);
+        
+            &:focus{
+                border: none;
+            }
+        
+            &:active{
+                border: none;
+            }
+        }
+
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+
+        div{
+            a{
+                color: black;
+                font-size: 18px;
+                font-weight: 300;
+                padding: 10px 20px;
+
+                &:hover{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .headerSection{
+            display: flex;
+            justify-content: flex-end;   
+        }
+    }
+}
+
+@media (min-width: 1000px){
+    .headerButton{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px){
+    header{
+        nav{
+        div{
+        a{
+            font-weight: 700;
+        }
+    }
+}
+}
+}
