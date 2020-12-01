@@ -11,16 +11,21 @@ html{
 }
 
 .body{
-    //background-color: #fafafa;
     background: linear-gradient(180deg, rgba(145,211,245,1) 0%, rgba(250,250,250,1) 19%, rgba(250,250,250,1) 100%);
     font-family: 'Montserrat', sans-serif;
 }
 h2{
     font-weight: 300;
 }
+
 h3{
     font-size: 26px;
     font-weight: 300;
+    
+}
+
+.subtitulos{
+    font-weight: bolder;
 }
 
 .presentacion{
@@ -83,6 +88,11 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.descripcion{
+    margin-bottom: 30px;
+    font-weight: 300;
 }
 
 .rowConocimientos{
@@ -223,5 +233,10 @@ footer{
     .tarjetaEstudios{
         height: 50px;
         padding: 0 20px;
+    }
+
+    .descripcion{
+        margin: 0px 30px 50px 30px;
+        text-align: center;
     }
 }

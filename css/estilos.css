@@ -219,7 +219,12 @@ p {
   transition: all 0.5s; }
   .cartelProyectos:hover {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.5); }
+    .cartelProyectos:hover h2 {
+      color: white; }
+    .cartelProyectos:hover p {
+      color: white; }
 
 .a100 {
   width: 100%;
@@ -246,6 +251,9 @@ h2 {
 h3 {
   font-size: 26px;
   font-weight: 300; }
+
+.subtitulos {
+  font-weight: bolder; }
 
 .presentacion {
   padding-top: 50px; }
@@ -301,6 +309,10 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.descripcion {
+  margin-bottom: 30px;
+  font-weight: 300; }
 
 .rowConocimientos {
   width: 70%;
@@ -393,4 +405,7 @@ footer {
     justify-content: center; }
   .tarjetaEstudios {
     height: 50px;
-    padding: 0 20px; } }
+    padding: 0 20px; }
+  .descripcion {
+    margin: 0px 30px 50px 30px;
+    text-align: center; } }
