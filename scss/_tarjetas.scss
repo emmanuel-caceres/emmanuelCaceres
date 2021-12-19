@@ -59,6 +59,10 @@
     background-image: url(../imagenes/ciu.jpg);
 }
 
+.tarjetaReservApp{
+    @include tarjetas;
+    background-image: url(../imagenes/oficina.jpg);
+}
 .tarjetaEstudios{
     @include tarjetas;
     height: 80px;

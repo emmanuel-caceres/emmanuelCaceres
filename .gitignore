@@ -1,0 +1,6 @@
+# Directorios
+node_modules/
+
+# Package
+package.json
+package-lock.json
